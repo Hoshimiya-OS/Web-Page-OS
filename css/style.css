@@ -10,23 +10,77 @@
   overflow: hidden; 
   outline: none;
 }
-#intro{
-    padding: 0%;
-    margin: 0%;
-    text-align: justify;
-    background-color: black;
+#navbarScroll{
+  padding: auto;
+  height: 100%;
+}
+
+#navbarScroll a{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#navbarScroll .navbar-nav .nav-item .nav-link a:after{
+  color:#E3BD5F;
+  background-color: #252A34;
+  content: "";
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+#navbarScroll .navbar-nav .nav-item a:hover{
+  color:#08D9D6;
+}
+
+
+
+.header-title{
+  padding: 15% 0;
+}
+
+#introduction-stage{
+    padding: 10% 10% 10%;
+    width: 60%;
+    text-align: right;
+    background-color: none;
+    color: #FF8787;
 }
 #presentation{
   padding: 0%;
-  margin: 0%;
+  height: 3px;
+  margin: auto;
   text-align: center;
-  background-color: #FF33F0;
+  color: #08D9D6;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
+#carouselos{
+  padding: 50px;
+}
+.carousel-item h5{
+  color:#8EFA75;
+  font-size:x-large;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.carousel-item p{
+  color:#E3BD5F;
+  font-size: x-large;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.carousel,.carousel-inner>.carousel-item>img{
+  width: 100%;
+  margin: auto;
+  
+}
+
+
+
+
 /*Footer*/
 
 .pie-pag{
   width: 100%;
-  background-color: #0a141d;
+  background-color: #252A34;
 }
 .pie-pag .g-1{
   width: 100%;
@@ -54,11 +108,19 @@
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 .pie-pag .g-1 .box p{
   color: #efefef;
   margin-bottom: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.pie-pag .g-1 .box i{
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .pie-pag .g-1 .socia-media a{
@@ -76,10 +138,12 @@
 
 .pie-pag .g-1 .socia-media a:hover{
   color:aqua;
+  display: inline-block;
+  align-items: center;
 }
 
 .pie-pag .g-2{
-  background-color: #0a1a2a;
+  background-color: #252A34;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
