@@ -76,7 +76,7 @@
 }
 
 
-#carouselos{
+#carouselExampleCaptions{
   padding: 50px;
 }
 .carousel-item h5{
@@ -90,7 +90,7 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 .carousel,.carousel-inner>.carousel-item>img{
-  width: 100%;
+  width: 95%;
   margin: auto;
   
 }
